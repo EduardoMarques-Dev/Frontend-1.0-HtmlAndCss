@@ -11,6 +11,10 @@ p {
     text-align: center;
 }
 
+#missao {
+    font-size: 20px;
+}
+
 i b {
     color: red;
 }
