@@ -4,6 +4,7 @@
 
 .principal {
     background: lightgray;
+    padding: 30px;
 }
 
 h1, h2 {
@@ -29,4 +30,16 @@ i b {
 
 .beneficios {
     background: white;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem_beneficios {
+    width: 50%;
 }
