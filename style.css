@@ -1,12 +1,12 @@
-body {
-    background: lightgray;
-}
-
 #banner {
     width: 100%;
 }
 
-h1 {
+.principal {
+    background: lightgray;
+}
+
+h1, h2 {
     text-align: center;
     
 }
@@ -25,4 +25,8 @@ i b {
 
 .itens {
     font-style: italic;
+}
+
+.beneficios {
+    background: white;
 }
