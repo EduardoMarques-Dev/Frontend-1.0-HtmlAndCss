@@ -137,4 +137,5 @@ form label, form legend{
 .enviar:hover{
     background: darkorange;
     font-size: 20px;
+    transform: scale(1.2);
 }
