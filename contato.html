@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="logo.png"></h1>
+                <h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
 
                 <nav>
                     <ul>
@@ -23,7 +23,7 @@
 
         <main>
             <form>
-                <div>
+                <fieldset>
                     <label for="nomesobrenome">Nome e sobrenome</label>
                     <input type="text" id="nomesobrenome" class="input-padrao" required
                     >
@@ -36,10 +36,10 @@
     
                     <label for="mensagem">Mensagem</label>
                     <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>Como prefere o nosso contato</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato</legend>
     
                     <label for="radio-email">
                         <input id="radio-email" name="contato" type="radio" value="email">
@@ -52,16 +52,17 @@
                     <label for="radio-whatsapp">
                         <input id="radio-whatsapp" name="contato" type="radio" value="whatsapp" checked>
                         WhatsApp</label>
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>Qual horário prefere ser atendido</p>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido</legend>
+
                     <select>
                         <option value="">Manhã</option>
                         <option value="">Tarde</option>
                         <option value="">Noite</option>
                     </select>
-                </div>
+                </fieldset>
 
                 <label class="checkbox"><input type="checkbox" checked>
                     Gostaria de receber nossas novidades por email?
@@ -72,7 +73,7 @@
         </main>
 
         <footer>
-            <img src="logo-branco.png">
+            <img src="logo-branco.png" alt="Logo da Barbearia Alura">
             <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
         </footer>
     </body>
