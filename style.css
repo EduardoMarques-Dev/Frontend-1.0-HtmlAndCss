@@ -169,7 +169,7 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    color: rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
 .principal {
@@ -214,7 +214,8 @@ td, th {
 
 .beneficios {
     padding: 3em 0;
-    background: #888888 ;
+    background: #888888;
+   /* box-shadow: inset 0 0 30px 20px rgba(0,0,0,0.5); */
 }
 
 .conteudo-beneficios {
@@ -244,12 +245,13 @@ td, th {
     width: 60%;
     opacity: 1;
     transition: 0.25s;
+    box-shadow: 5px 10px 30px 20px rgba(0,0,0,0.5);
+    /* esquerda, direita, blur, tamanho, cor */
 }
 
 .imagem-beneficios:hover{
     opacity: 0.3;
 }
-
 
 .video {
     width: 560px;
